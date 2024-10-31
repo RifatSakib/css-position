@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+    <style>
+        h3::after{
+            content: ".pdf";
+            color: red;
+            font-size: small;
+        }
+
+        h3::before{
+            content: ".pdf";
+            color: red;
+            font-size: small;
+        }
+
+        p::first-letter{
+            font-size: 2em;
+        }
+
+        p::selection{
+
+            background-color: yellow;
+        }
+
+        input::placeholder{
+            color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <h3>hello1</h3>
+    <h3>hello2</h3>
+    <h3>hello3</h3>
+    <h3>hello4</h3>
+    <h3>hello5</h3>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus enim, nobis, quaerat eum est nemo ad, delectus alias vitae voluptatem dolor beatae. Assumenda dolorem autem consequuntur impedit placeat provident quasi?</p>
+
+    <p>Magni minus beatae ut omnis magnam dolor temporibus vitae nam tempora repudiandae! Porro reiciendis eaque natus ducimus. Dolores quasi debitis ipsam voluptate at incidunt perferendis, rerum nihil placeat laudantium aliquid.</p>
+
+    <p>Officiis eum, commodi nobis, atque hic iusto, a laudantium vitae natus tempora non at est. Pariatur sint voluptas rerum porro rem molestias, nulla esse id officia similique, aspernatur suscipit maiores.</p>
+</body>
+</html>
